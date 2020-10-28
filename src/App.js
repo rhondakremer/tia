@@ -32,12 +32,6 @@ function App() {
           width: 100
         },
         {
-          label: 'Start date',
-          field: 'date',
-          sort: 'disabled',
-          width: 150
-        },
-        {
           label: 'Salary',
           field: 'salary',
           sort: 'disabled',

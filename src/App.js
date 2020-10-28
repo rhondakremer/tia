@@ -1,12 +1,12 @@
 import React from "react";
-import Container from "./components/Container";
+import './index.css'
 import "./App.css";
 // import React from 'react';
 import { MDBDataTable } from 'mdbreact';
 
 function App() {
   
-  {/* <Container> */}
+  // {/* <Container> */}
   
   const data = {
       columns: [
@@ -138,11 +138,11 @@ function App() {
 // Seed Delete Function w/ Errors
 
   return (
-    <div className="App">
+    <div className="App" style= {{color: "#f0c2c1"}}>
 
 
-<MDBDataTable
-        striped
+<MDBDataTable style= {{color: "#80deea"}}
+        striped 
         bordered
         small
         data={data}/>

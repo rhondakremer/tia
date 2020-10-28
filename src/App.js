@@ -1,15 +1,14 @@
 import React from "react";
 import Container from "./components/Container";
 import "./App.css";
-import React from 'react';
+// import React from 'react';
 import { MDBDataTable } from 'mdbreact';
 
 function App() {
-  return (
-    <div className="App">
+  
   {/* <Container> */}
-
-  const data = [{
+  
+  const data = {
       columns: [
         {
           label: 'Name',
@@ -140,30 +139,23 @@ function App() {
       ]
     };
   
-    return (
-      <MDBDataTable
+  
+    
+// Seed Delete Function w/ Errors
+
+  return (
+    <div className="App">
+
+
+<MDBDataTable
         striped
         bordered
         small
         data={data}/>
-    );
-    }
-// Seed Delete Function w/ Errors
-db.WorkOffTrack.enterMany({})
-  .then(() => db.WorkOffTrack.collection.insertMany(workoffSeed))
-  .then(data => {
-    console.log(data.result.n + " records inserted!");
-    process.exit(0);
-  })
-  .catch(err => {
-    console.error(err);
-    process.exit(1);
-  });
-
-  {/* export default workoffSeed; */}
-  {/* </Container> 
-    </div> */}
+ 
+   </div> 
   );
 }
+
 
 export default App;

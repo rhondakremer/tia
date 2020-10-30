@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/tia/static/css/main.6af607c0.chunk.css",
+    "main.js": "/tia/static/js/main.bea29fe8.chunk.js",
+    "main.js.map": "/tia/static/js/main.bea29fe8.chunk.js.map",
+    "runtime-main.js": "/tia/static/js/runtime-main.90f1c2f5.js",
+    "runtime-main.js.map": "/tia/static/js/runtime-main.90f1c2f5.js.map",
+    "static/css/2.1e2c4c4a.chunk.css": "/tia/static/css/2.1e2c4c4a.chunk.css",
+    "static/js/2.0e7b89e6.chunk.js": "/tia/static/js/2.0e7b89e6.chunk.js",
+    "static/js/2.0e7b89e6.chunk.js.map": "/tia/static/js/2.0e7b89e6.chunk.js.map",
+    "index.html": "/tia/index.html",
+    "precache-manifest.874fa58a6eca93f1a0bfe4f655c2b809.js": "/tia/precache-manifest.874fa58a6eca93f1a0bfe4f655c2b809.js",
+    "service-worker.js": "/tia/service-worker.js",
+    "static/css/2.1e2c4c4a.chunk.css.map": "/tia/static/css/2.1e2c4c4a.chunk.css.map",
+    "static/css/main.6af607c0.chunk.css.map": "/tia/static/css/main.6af607c0.chunk.css.map",
+    "static/js/2.0e7b89e6.chunk.js.LICENSE.txt": "/tia/static/js/2.0e7b89e6.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/tia/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/tia/static/media/fa-solid-900.8e1ed89b.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90f1c2f5.js",
+    "static/css/2.1e2c4c4a.chunk.css",
+    "static/js/2.0e7b89e6.chunk.js",
+    "static/css/main.6af607c0.chunk.css",
+    "static/js/main.bea29fe8.chunk.js"
+  ]
+}
